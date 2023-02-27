@@ -1,9 +1,22 @@
-
 header {
     background-image: URL(https://i.imgur.com/HeimDoK.png);
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
+}
+
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+text-align: center;
+    
+        font-weight: 1000;
+        font-size: 2.2em;
+        margin-top: 10%;
+        color:olive;
+        text-shadow: 1px 1px goldenrod;
+        letter-spacing: 0px;
+        padding: 10px;
+        margin: 10px;
 }
 
 body {
@@ -12,7 +25,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container {
+
+p {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+
+  .container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -34,6 +54,7 @@ body {
 	width: 70%;
 	display: flex;
 	justify-content: space-around;
+    padding-top: 50px;
 }
 .carousel-images {
 	width: 40%;
@@ -64,56 +85,6 @@ body {
 	color: goldenrod;
 }
 
-h1 {
-    font-family: 'IBM Plex Mono', monospace;
-text-align: center;
-    
-        font-weight: 1000;
-        font-size: 2.2em;
-        margin-top: 10%;
-        color:olive;
-        text-shadow: 1px 1px goldenrod;
-        letter-spacing: 0px;
-        padding: 30px;
-        margin: 10px;
-}
-
-
-small {
-    font-size: 16px;
-    opacity: 0;
-    text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
-  }
-
-
- footer {
-    text-decoration: none;
-    text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
- }
-
- embeded {
-
-    text-decoration: none;
-    text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
-    background: linear-gradient(bottom, rgba(241, 182, 72, 0.2), rgba(245, 203, 78, 0.2));
-    background: -webkit-linear-gradient(bottom, rgba(245, 203, 78, 0.2), rgba(245, 203, 78, 0.2));
-    background: -moz-linear-gradient(bottom, rgba(245, 203, 78, 0.2), rgba(245, 203, 78, 0.2));
- }
-
-
-#rock, #paper, #scissors, #reset, #submit {
-    background-color: pink;
-}
-
-
-h2 {
-    text-align: center;
-    font-family: 'IBM Plex Mono', monospace; 
-}
- 
 ul {
     text-decoration: none;
     text-align: center;
@@ -123,7 +94,7 @@ ul {
     
 }
 
-.about {
+.home {
     display: inline;
     text-decoration: none;
 }
@@ -149,3 +120,9 @@ a:hover {
     cursor: pointer;
 	background: pink;
 }
+
+footer {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+ }
