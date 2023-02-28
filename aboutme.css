@@ -24,12 +24,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 p {
     font-size: 16px;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
+    display: inline-block;
+    position: center;
+
   }
 
   .container {
@@ -58,11 +62,10 @@ p {
 }
 .carousel-images {
 	width: 40%;
-	background: whitesmoke;
 	padding: 10px;
 	border-radius: 60% 40% 40% 20%;
 	box-sizing: border-box;
-	box-shadow: 2px 2px olive;
+    box-shadow: olive;
 }
 .carousel-images img {
 	width: 100%;
@@ -73,8 +76,8 @@ p {
 	align-self: center;
     background: olive;
 	color: goldenrod;
-	padding: 15px;
-	border-radius: 100%;
+	padding: 10px;
+	border-radius: 10%;
     text-align: center;
 
 }
@@ -115,4 +118,11 @@ footer {
     text-decoration: none;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
+ }
+
+ .wrap {
+    max-width: 600px;
+    width: fit-content;
+    margin: auto;
+    border: dotted goldenrod 5px;
  }
