@@ -87,6 +87,7 @@ footer {
     margin-right: auto;
     margin-top: 20px;
  }
+
 .coffee {
         text-decoration: none;
         text-align: center;
@@ -102,4 +103,56 @@ footer {
         width: fit-content;
         margin: auto;
     
+}
+
+.modal-textbox {
+background-color: whitesmoke;
+color: white;
+}
+
+#openModal {
+font-family: 'IBM Plex Mono', monospace;
+text-align: center;
+background-color: pink;
+margin: 20px;
+
+}
+
+openModal:hover {
+    cursor: pointer;
+}
+
+#closeModal {
+font-family: 'IBM Plex Mono', monospace;
+text-align: center;
+background-color: pink;
+}
+
+closeModal:hover {
+    cursor: pointer;
+}
+
+#modal {
+background-color: whitesmoke;
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: 1;
+overflow: auto;
+text-align: center;
+height: 350px;
+width: 550px;
+border-radius: 2px;
+margin: 150px auto;
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.resume {
+color: white;
+text-align: center;
+font-family: 'IBM Plex Mono', monospace;
 }
