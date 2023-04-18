@@ -1,5 +1,7 @@
 $(() => {
 
+//modal
+
 const $openBtn = $('#openModal')
 const $modal = $('#modal')
 const $closeBtn = $('#closeModal')
